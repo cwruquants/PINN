@@ -1,0 +1,11 @@
+1) Pick assigned model out of the three papers (make sure you are implementing the Black-Scholes model for European Options)
+
+2) Read the paper thoroughly, write down assumptions, model parameters, and implementation details, 
+this is for your reference but also for our final report. (pay attention to sampling methods, and PDE details like collocation points)
+
+3) Implement your model, Louskous-thesis is a great reference (in the Appendix he lists his code), once you have implemented it,
+compare to what was written in the paper and benchmark against analytical solutions to BS (using Mean squared error most likely 
+or whatever is in the paper).
+
+4) Data visualization: it'd be nice to have visualizations for loss function and payoff diagram, some papers include their own
+visualization, compare these.
