@@ -1,0 +1,36 @@
+Sophia
+
+*Introduction
+1. Financial Modeling of Fair Options Pricing (include assumptions and related)
+-Introduce Black-Scholes and perhaps Binomial pricing model, give context to the problem we are solving (BS is hard to solve in the closed form, requires numerical techniques)
+
+2. Present Closed Form Solution as a Benchmark
+-Don't need to derive it persay, just present it the solution to PDE under the assumptions
+
+
+Nishil
+
+3. Present the formulation of the PINN (residuals, loss function, backpropagation, BS governing equation)
+-Make note of the fact this methodology is much more of a numerical PDE technique than machine learning
+
+Karel, Sophia, Nishil
+
+4. Our review of the current literature
+-Explain how we are using at the money options off yfinance
+-Use SPY/SPX only for now (use notebook)
+-Payoff diagram and loss function necessary, we can always add more here 
+-Monte Carlo as benchmark
+
+Need:
+-Explanation of architecture (activation functions, layers, nodes, optimizer)
+-Comparison to analytical BS (MAE/MSE)
+
+Everyone
+5. Concluding Remarks
+-Where did we struggle, what could we change, etc.
+
+Alex and Karel
+Also need:
+Abstract
+Bibliography
+(Formatting)
